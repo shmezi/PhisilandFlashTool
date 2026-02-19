@@ -1,12 +1,16 @@
 {
-  "name": "Phisiterpeter ESP32-S3",
-  "version": "1.0.0",
-  "home_page": "https://your-project-link.com",
+  "name": "Phisiterpeter",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         { "path": "merged-firmware.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "arduino-merged.bin", "offset": 0 }
       ]
     }
   ]
